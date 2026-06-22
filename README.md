@@ -7,7 +7,7 @@
 
 ## 수업 노트북과의 비교
 
-| 항목 | Tiny GPT (notebook_06) | **GPT 2.0 (이 노트북)** |
+| 항목 | Tiny GPT | **GPT 2.0** |
 |------|------------------------|------------------------|
 | 데이터셋 | Tiny Shakespeare (~1.1M chars) | **WikiText-2 (~10.9M chars)** |
 | 활성화 함수 | ReLU | **GELU** |
@@ -173,19 +173,6 @@ python chat_gpt2.py
 
 ---
 
-## 수업 노트북 발전 과정
-
-```
-notebook_01: Bigram (names.txt)           → train loss ~2.52
-notebook_02: MLP (names.txt)              → train loss ~2.26
-notebook_03: MLP (Shakespeare)            → train loss ~1.86
-notebook_04: GPT-style dataset + TinySeq → train loss ~2.46
-notebook_05: Single-Head Attention        → train loss ~2.24
-notebook_06: Tiny GPT (Shakespeare)       → train loss ~1.33
-notebook_gpt2: GPT 2.0 (WikiText-2)      → train loss 1.3727 / val loss 1.3959
-```
-
----
 
 ## 참고 문헌
 
@@ -193,3 +180,9 @@ notebook_gpt2: GPT 2.0 (WikiText-2)      → train loss 1.3727 / val loss 1.3959
 - Merity, S., et al. (2016). *Pointer Sentinel Mixture Models.* (WikiText-2)
 - Press, O., & Wolf, L. (2017). *Using the Output Embedding to Improve Language Models.* (Weight Tying)
 - Karpathy, A. (2022). *Let's build GPT: from scratch, in code, spelled out.* (수업 기반 자료)
+
+---
+
+## 연락처
+
+hyechul1238@yonsei.ac.kr
