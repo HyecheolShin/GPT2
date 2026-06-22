@@ -1,0 +1,21 @@
+# 수업 참고 자료 (제출 불필요)
+참고파일/
+
+# 모델 가중치 (대용량 바이너리)
+*.pt
+*.pth
+
+# 학습 중간 결과
+results.json
+
+# Claude Code 설정
+.claude/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# 환경 설정
+.env
